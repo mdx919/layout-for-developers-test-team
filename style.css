@@ -1,0 +1,104 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #D3DCDC;
+}
+nav {
+  font-size: 2em;
+  border-bottom: 0.02em solid black;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #7A9D7E;
+}
+
+.leftNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+.rightNav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.small-image {
+    border-radius: 0.3em;
+}
+
+.header-left {
+  font-size: 0.5em;
+  margin-left: 1vw;
+}
+
+.header-right {
+  font-size: 0.5em;
+  margin-top: 0;
+
+}
+
+.fas fa-globe-americas {
+  font-size:
+}
+
+.Content {
+  width: 100vw;
+  display:grid;
+  /* border: 0.3em solid black; */
+  /* flex-direction: row; */
+   grid-template-columns: 25vw auto 25vw;
+}
+
+.Left {
+  /* border: 0.3em solid black; */
+  padding-top: 3vh;
+}
+
+.left-panel {
+    display: flex;
+    flex-direction: row;
+    padding-left: 4vw;
+    padding-top: 1vh;
+}
+
+.left-panel-text {
+  margin-left: 2vw;
+}
+
+.Center {
+  /* border: 0.3em solid black; */
+  padding-top: 3vh;
+}
+
+.big-image {
+  border-top-left-radius: 0.3em;
+  border-bottom-left-radius: 0.3em;
+}
+
+.center-panel {
+  display: flex;
+  flex-direction: row;
+  background-color: #F2F7F7;
+  margin-bottom: 2vh;
+  border-radius: 0.3em;
+  max-height: 22vh;
+}
+
+.center-panel-text {
+  font-size: 0.9em;
+  padding: 1em;
+}
+
+.Right {
+  /* border: 0.3em solid black; */
+  padding-top: 3vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
